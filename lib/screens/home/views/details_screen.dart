@@ -18,14 +18,13 @@ class DetailsScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.surface,
       ),
-      body: SingleChildScrollView(
-        child: Padding(
+      body:  Padding(
           padding: const EdgeInsets.symmetric(horizontal:20.0),
           child: Column(
             children: [
               Container(
                 width: MediaQuery.of(context).size.width,
-                height:MediaQuery.of(context).size.width -40 ,
+                height:MediaQuery.of(context).size.width -60 ,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(30),
@@ -161,7 +160,7 @@ class DetailsScreen extends StatelessWidget {
             ],
           ),
           ),
-      ),
+     
     );
   }
 }
